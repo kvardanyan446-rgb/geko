@@ -1,0 +1,61 @@
+.main-title{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+text-transform: uppercase;
+
+}
+.section-title{
+ font-size: 26px;
+ font-family:Georgian,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+letter-spacing: 2px;
+}
+.text-one{
+    font-size: 18px;
+    font-family:Tomorrow,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1,8;
+text-align: justify;
+}
+.text-two{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 6px;
+}
+.text-three{
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-align: right;
+}
+.main-link{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline overline;
+    font-weight: bold;   
+}
+.pre-text{
+    white-space: pre
+}
+.box {
+    width: 100%;
+    height: 150%;
+}
+    .box-one{
+        background-color: blue;
+    }
+    .box-two{
+        background-image: url(https://img.freepik.com/free-photo/wolf-snow-forest_1268-33649.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .box-three{
+        background-image: url(https://img.freepik.com/premium-photo/black-snake-gray-background-black-white-image-snake_1102944-6656.jpg?semt=ais_hybrid&w=740);
+    background-repeat:repeat ;
+    background-attachment: fixed;
+    padding: 20px;
+box-sizing: border-box;
+
+
+}
