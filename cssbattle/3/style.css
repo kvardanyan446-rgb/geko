@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6c8ebf; /* բաց կապույտ ֆոն */
+}
+
+/* հիմնական բլոկ */
+.wrapper {
+  position: relative;
+  width: 700px;
+  height: 300px;
+}
+
+/* կենտրոնի մեծ շրջան */
+.circle {
+  width: 300px;
+  height: 300px;
+  background: #2f458a;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* միջի փոքր շրջան */
+.dot {
+  width: 100px;
+  height: 100px;
+  background: #e4b04a;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ձախ կողմի ձև */
+.left {
+  width: 100px;
+  height: 300px;
+  background: #2f458a;
+  position: absolute;
+  left: 0;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+/* աջ կողմի ձև */
+.right {
+  width: 100px;
+  height: 300px;
+  background: #2f458a;
+  position: absolute;
+  right: 0;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+}
