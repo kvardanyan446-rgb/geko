@@ -1,0 +1,37 @@
+
+.container{
+  position:relative;
+  background: #0B3B3B;
+  width:400px;
+  height:300px;
+
+}
+
+.circle{
+  width: 120px;
+  height:120px;
+  border-radius: 50px  0 50px 050px    ;
+  position:absolute;
+}
+
+
+.left{
+  background:#F2AD43;
+  left:80px;
+  top:150px;
+}
+
+
+.middle{
+  background:#9E8B3A;
+  left:150px;
+  top:80px;
+  z-index:2;
+}
+
+
+.right{
+  background:#F2AD43;
+  left:200px;
+  top:30px;
+}
