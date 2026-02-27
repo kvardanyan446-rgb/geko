@@ -1,0 +1,46 @@
+
+
+.atom {
+    background: #0D1335;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  
+}
+
+.electron {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #73C6EA;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orbit {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  border: 8px solid;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+}
+
+.orbit1 {
+  border-color: #FBFAE2;
+  transform: translate(-50%, -50%);
+}
+
+.orbit2 {
+  border-color: #4FA07B;
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.orbit3 {
+  border-color: #DC6638;
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
