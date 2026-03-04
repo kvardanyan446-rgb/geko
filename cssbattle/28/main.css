@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    background: #1A4341;
+}
+.box1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #998235;
+    border-radius: 50px;
+    top: 90px;
+    left: 70px;
+}
+.box2{
+    position: absolute;
+width: 50px;
+height: 50px;
+background:#F3AC3C;
+border-radius:  0 0 35px 35px;
+top: 160px;
+left: 70px;
+}
+.box3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #998235;
+    border-radius: 50px;
+    top: 160px;
+    left: 140px;
+}
+.box4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #F3AC3C;
+    border-radius: 35px 35px 0 0;
+    top: 90px;
+    left: 140px;
+}
+.box5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #F3AC3C;
+    border-radius: 50px;
+    top: 160px;
+    left: 210px;
+}
+.box6{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #998235;
+    border-radius: 35px 35px 0 0;
+    top: 90px;
+    left: 210px;
+}
+.box7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #F3AC3C;
+    border-radius: 50px;
+    top: 90px;
+left: 280px;
+}
+.box8{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #998235;
+    border-radius: 0 0 35px 35px;
+    top: 160px;
+    left: 280px;
+}
+
+
