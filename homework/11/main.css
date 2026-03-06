@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.buttons{
+display:grid;
+grid-template-columns:repeat(4,70px);
+grid-gap:15px;
+justify-content:start;
+background: black;
+}
+
+button{
+height:70px;
+border:#333;
+border-radius:50%;
+font-size:40px;
+cursor:pointer;
+}
+
+.gray{
+background:#a5a5a5;
+
+}
+.orange{
+background:#ff9f0a;
+color:white;
+
+
+
+
+
+}
+.dark{
+background:#333;
+color:white;
+}
+
+
+
+.zero{
+grid-column:span 2;
+border-radius:40px;
+text-align:left;
+padding-left:30px;
+}
