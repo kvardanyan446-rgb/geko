@@ -1,0 +1,87 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #030405; 
+            margin: 0;
+    
+        }
+
+* {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid #1d1717;
+            box-shadow: inset 0 5px 10px rgba(226, 225, 225, 0.6);
+        }
+
+       
+        .karmir{
+            background-color: #4a0000; 
+            animation: karmir 12s infinite;
+        }
+
+        .dexin {
+            background-color: #4a4a00;
+            animation: dexin 12s infinite;
+        }
+
+        .kanach {
+            background-color: #004a00; 
+            animation: kanach 12s infinite;
+        }
+
+       
+        @keyframes karmir {
+            0%, 35% { 
+                background-color: #ff0000; 
+                box-shadow: 0 0 30px #ff0000; 
+            }
+            35.1%, 90% { 
+                background-color: #4a0000; 
+                box-shadow: inset 0 5px 10px rgba(0,0,0,0.6); 
+            }
+            90.1%, 100% { 
+                background-color: #ff0000; 
+                box-shadow: 0 0 30px #ff0000; 
+            }
+        }
+
+        
+        @keyframes dexin {
+            0%, 25% { 
+                background-color: #4a4a00; 
+                box-shadow: inset 0 5px 10px rgba(0,0,0,0.6); 
+            }
+            25.1%, 35% { 
+                background-color: #ffcc00; 
+                box-shadow: 0 0 30px #ffcc00; 
+            }
+            35.1%, 77% { 
+                background-color: #4a4a00; 
+                box-shadow: inset 0 5px 10px rgba(0,0,0,0.6); 
+            }
+            77.1%, 90% { 
+                background-color: #ffcc00; 
+                box-shadow: 0 0 30px #ffcc00; 
+            }
+            90.1%, 100% { 
+                background-color: #4a4a00; 
+                box-shadow: inset 0 5px 10px rgba(0,0,0,0.6); 
+            }
+        }
+
+       
+        @keyframes kanach {
+            0%, 35% { 
+                background-color: #004a00; 
+                box-shadow: inset 0 5px 10px rgba(0,0,0,0.6); 
+            }
+            35.1%, 60% { 
+                background-color: #00ff00; 
+                box-shadow: 0 0 30px #00ff00; 
+            }
+            
+          
+            }
+        
