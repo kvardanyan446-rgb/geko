@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+}
+.hero{
+height: 100%;
+  
+background:  rgba(20, 0, 0, 0.5) url(https://png.pngtree.com/thumb_back/fh260/background/20231015/pngtree-creamy-cappuccino-sits-on-rustic-wooden-table-amidst-serene-natural-surroundings-image_13653195.png)no-repeat center center / cover;
+background-blend-mode: difference;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1440px;
+}
+.wrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.title{
+color: white;
+font-size: 2.5em;
+
+}
+.text{
+color: white;
+
+
+}
+.btn{
+color: black rgba(236, 158, 44,);
+text-decoration: none;
+font-family: sans-serif;
+font-size: 30px;
+text-transform: uppercase;
+letter-spacing: 4px;
+border: 1px solid #b9ca1e;
+transition: 0.5s;
+}
+.btn:hover{
+background:#b9ca1e;;
+color: white;
+transition: 0.5s;
+
+}
