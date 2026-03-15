@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.shaxmat{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    background: conic-gradient(
+        #335 25%,
+        #fff 25% 50%,
+        #335 50% 75%,
+        #fff 75%
+
+    );
+    background-size: 25% 25%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
