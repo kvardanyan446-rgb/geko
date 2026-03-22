@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+}
+.logo{
+color: #F55757;
+display: flex;
+align-items: center;
+
+}
+.icon{
+  border: 2px solid #e57373;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.hero .text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #e74c3c;
+  color: white;
+}
+
+.outline {
+  border: 2px solid #e74c3c;
+  background: transparent;
+  color: #e74c3c;
+}
+
+.image img {
+  width: 500px;
+}
+
+
+.booking {
+  background: #f5d7cf;
+  padding: 40px 80px;
+}
+
+.tabs span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px;
+  flex: 1;
+}
+
+.form button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.map {
+  position: relative;
+  width: 800px;
+}
+
+.map img {
+  width: 100%;
+  display: block;
+}
+
+
+.pin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+
+.green {
+  background: green;
+  top: 50%;
+  left: 60%;
+}
+
+.red {
+  background: red;
+}
+
+.pin1 {
+  top: 60%;
+  left: 120%;
+}
+
+.pin2 {
+  top: 50%;
+  left: 80%;
+}
+
+
+.path {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  width: 60%;
+  height: 200px;
+
+  border-top: 2px dashed gray;
+  border-radius: 50%;
+}
+
+.image1{
+
+  display: flex;
+  justify-content: space-between;
+width:1.236px ;
+height: 80px;
+top: 1026px;
+left: 103px;
+gap: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.cars {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.subtitle {
+  color: #ff6b6b;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.desc {
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.car-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  width: 280px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.price span {
+  font-size: 14px;
+  color: gray;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn.active {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+}
+
+.see-all {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
