@@ -133,8 +133,8 @@ align-items: center;
 
 .green {
   background: green;
-  top: 50%;
-  left: 60%;
+  top: 40%;
+  left: 40%;
 }
 
 .red {
@@ -142,22 +142,22 @@ align-items: center;
 }
 
 .pin1 {
-  top: 60%;
-  left: 120%;
+  top: 30%;
+  left: 60%;
 }
 
 .pin2 {
-  top: 50%;
+  top: 40%;
   left: 80%;
 }
 
 
 .path {
   position: absolute;
-  top: 40%;
-  left: 60%;
-  width: 60%;
-  height: 200px;
+  top: 30%;
+  left: 40%;
+  width: 40%;
+  height: 190px;
 
   border-top: 2px dashed gray;
   border-radius: 50%;
@@ -171,7 +171,7 @@ width:1.236px ;
 height: 80px;
 top: 1026px;
 left: 103px;
-gap: 50px;
+gap: 80px;
 }
 
 body {
@@ -201,8 +201,8 @@ h2 {
 
 .car-list {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -213,17 +213,18 @@ h2 {
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
   text-align: left;
+  
 }
 
 .card img {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 80px;
 }
 
 .price {
   font-size: 22px;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 
 .price span {
@@ -252,6 +253,114 @@ h2 {
   background: #ff6b6b;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
 }
+
+.card2{
+  text-align: center;
+padding: 60px 20px;
+
+}
+
+h2{
+  font-size: 32px;
+margin: 10px 0;
+}
+
+.pargraf{
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.body1{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    background-image: url(/projects/1_Rental_Car/img/n1.jpg ) ;
+}
+
+.services{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.top{
+    color:#ff6b6b;
+    letter-spacing:2px;
+}
+
+.services h1{
+    font-size:40px;
+    margin:10px 0;
+}
+
+.desc{
+    max-width:700px;
+    margin:auto;
+    color:gray;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    width:300px;
+    height:380px;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.card1{
+    background-image:url("/projects/1_Rental_Car/img/n2.jpg");
+}
+
+.card2{
+    background-image:url("/projects/1_Rental_Car/img/n3.jpg")
+}
+.card3{
+    background-image:url("/projects/1_Rental_Car/img/n4.jpg");
+}
+
+.overlay{
+    background:rgba(0,0,0,0.5);
+    color:white;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.icon{
+    font: size 90px;
+    margin-bottom:100px;
+}
+
+.overlay p{
+    font-size:10px;
+    margin:10px 0 20px;
+}
+
+.btn{
+    padding:10px 80px;
+    border:none;
+    cursor:pointer;
+}
+
+.red{
+    background:#ff4d4d;
+    color:white;
+}
+
+.white{
+    background:white;
+    color:black;
+}
+
