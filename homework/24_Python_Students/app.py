@@ -7,6 +7,8 @@ students = {
 while True:
     print("\n1 - Ավելացնել ուսանող")
     print("2 - Ավելացնել գնահատական")
+    print("3 - bolor tvyalnery")
+    print("4 - Վիճակագրություն")
     print("0 - Ելք")
 
     choice = input("Ընտրիր տարբերակը: ")
@@ -36,10 +38,37 @@ while True:
         else:
             print("Ուսանողը չի գտնվել")
 
-    # 0 — դուրս գալ
-    elif choice == "0":
-        print("Ծրագիրը փակվում է")
-        break
+    # 3 — բոլոր տվյալները
+    elif choice == "3":
+     for student, grades in students.items():
+        print(student, grades)
+    # 4 — վիճակագրություն
+    elif choice == "4":
+     total_students = len(students)
 
-    else:
-        print("Սխալ ընտրություն")
+     total_sum = 0
+     total_count = 0
+     excellent = 0
+     no_grades = 0
+
+     for grades in students.values():
+        if grades:
+            average = sum(grades) / len(grades)
+
+            if average > 90:
+                excellent += 1
+
+            total_sum += sum(grades)
+            total_count += len(grades)
+        else:
+            no_grades += 1
+
+     if total_count > 0:
+        group_average = total_sum / total_count
+     else:
+        group_average = 0
+
+     print("Ընդհանուր ուսանողներ:", total_students)
+     print("Խմբի միջին գնահատականը:", round(group_average, 1))
+     print("Գերազանցիկներ:", excellent)
+     print("Ուսանողներ առանց գնահատականի:", no_grades)
