@@ -13,7 +13,7 @@ while True:
 
     choice = input("Ընտրիր տարբերակը: ")
 
-    # 1 — ուսանող ավելացնել
+   
     if choice == "1":
         name = input("Ուսանողի անունը: ")
 
@@ -23,7 +23,7 @@ while True:
             students[name] = []
             print("Հաջողությամբ ավելացվեց")
 
-    # 2 — գնահատական ավելացնել
+  
     elif choice == "2":
         name = input("Ուսանողի անունը: ")
 
@@ -38,11 +38,10 @@ while True:
         else:
             print("Ուսանողը չի գտնվել")
 
-    # 3 — բոլոր տվյալները
     elif choice == "3":
      for student, grades in students.items():
         print(student, grades)
-    # 4 — վիճակագրություն
+    
     elif choice == "4":
      total_students = len(students)
 
@@ -72,3 +71,5 @@ while True:
      print("Խմբի միջին գնահատականը:", round(group_average, 1))
      print("Գերազանցիկներ:", excellent)
      print("Ուսանողներ առանց գնահատականի:", no_grades)
+
+     
