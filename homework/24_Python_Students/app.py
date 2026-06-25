@@ -15,8 +15,7 @@ while True:
 
    
     if choice == "1":
-        name = input("Ուսանողի անունը: ")
-
+        name = input("Ուսանողի անունը: ") 
         if name in students:
             print("Ուսանողը արդեն կա")
         else:
