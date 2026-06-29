@@ -70,5 +70,7 @@ while True:
      print("Խմբի միջին գնահատականը:", round(group_average, 1))
      print("Գերազանցիկներ:", excellent)
      print("Ուսանողներ առանց գնահատականի:", no_grades)
+     print("elq")
+     
 
      
